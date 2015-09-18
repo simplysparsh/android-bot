@@ -29,12 +29,10 @@ in .head so that they are not only valid for .head but all it's children */
 }
 
 .left_eye, .right_eye {
-	background-color: white;
-
-	height: 1.250em; 
+  background-color: white;
+  height: 1.250em; 
   width: 1.250em;
   border-radius: 0.625em;
-
   position: absolute;
   top: 2.625em;
 }
