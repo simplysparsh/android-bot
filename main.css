@@ -1,0 +1,92 @@
+
+
+div div {     
+/* The following properties are in a nested div and not directly 
+in .head so that they are not only valid for .head but all it's children */             
+  background: #A4CA39;  
+  position: relative;
+}
+
+.android {
+  height: 25.250em; 
+  width: 20.875em;
+
+  background-color: #FFFBED;
+  margin: 6.250em auto; 
+}
+
+/* styling for the bot's head */
+
+.head {
+  height: 6.250em;
+  width: 13.750em;
+  border-radius: 6.875em 6.875em 0em 0em;
+
+  background-color: #A4CA39;
+
+  margin: auto;
+  top: 2.000em;
+}
+
+.left_eye, .right_eye {
+	background-color: white;
+
+	height: 1.250em; 
+  width: 1.250em;
+  border-radius: 0.625em;
+
+  position: absolute;
+  top: 2.625em;
+}
+
+.left_eye{ left: 3.125em; }
+.right_eye{ right: 3.125em; }
+
+.left_antenna, .right_antenna {
+  height: 3.125em;
+  width: 0.375em; 
+  border-radius: 0.188em;
+
+  position: absolute;
+  top: -2.125em;
+} 
+
+.left_antenna { left: 3.125em; }
+.right_antenna { right: 3.125em; }
+
+/* styling for the bot's body */
+
+.body{
+  height: 11.500em;
+  width: 13.750em; 
+  border-radius: 0em 0em 1.563em 1.563em;
+
+  margin: auto;
+  top: 2.500em;
+}
+
+.left_arm, .right_arm, .left_leg, .right_leg {
+  width: 3.125em; 
+  position: absolute;
+}
+
+.left_arm, .right_arm {
+  height: 9.375em;
+  border-radius: 1.563em;
+}
+
+.left_arm { left: -3.625em; }
+.right_arm { right: -3.625em; }
+
+.left_leg, .right_leg {
+  height: 5.000em;
+  border-radius: 0em 0em 1.563em 1.563em;
+
+  top: 11.375em;
+}
+
+.left_leg { left: 2.813em; }
+.right_leg { right: 2.813em; }
+
+
+
