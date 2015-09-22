@@ -1,12 +1,4 @@
 
-
-div div {     
-/* The following properties are in a nested div and not directly 
-in .head so that they are not only valid for .head but all it's children */             
-  background: #A4CA39;  
-  position: relative;
-}
-
 .android {
   height: 25.250em; 
   width: 20.875em;
@@ -16,6 +8,13 @@ in .head so that they are not only valid for .head but all it's children */
 }
 
 /* styling for the bot's head */
+
+div div {     
+/* The following properties are in a nested div and not directly 
+in .head so that they are not only valid for .head but all it's children */             
+  background: #A4CA39;  
+  position: relative;
+}
 
 .head {
   height: 6.250em;
